@@ -9,8 +9,8 @@ import { inject } from './injection';
 inject();
 
 const render = (
-  nextElement, // ReactElement description.
-  callback // optional callback for when mount is complete
+  nextElement,
+  callback
 ) => {
 
   invariants.isValidElement(nextElement);
@@ -24,12 +24,11 @@ const render = (
       component.mountComponent(
         transaction,
         rootId,
-        // TODO: what is _idCounter used for and when should it be nonzero?
         {_idCounter: 0},
         {}
       );
       if (callback) {
-        callback(component.getPublicInstance());
+        callback(nextElement, component.getPublicInstance());
       }
     });
     ReactUpdates.ReactReconcileTransaction.release(transaction);

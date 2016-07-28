@@ -1,14 +1,14 @@
 {
-  "name": "react-bandjs-renderer",
+  "name": "react-bandjs-renderer-demo-mbros-theme",
   "version": "0.0.1",
-  "description": "Components renders to WebAudio composer Band.js, to prove that react render is a general concept of 'do effect'",
-  "main": "lib/bundle.js",
+  "description": "A demo to show how the renderer works",
+  "main": "''",
   "scripts": {
-    "build": "webpack -p --config webpack.config.js --progress --profile --colors"
+    "demo": "webpack-dev-server --progress --profile --colors --hot"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/snowmantw/react-bandjs-renderer"
+    "url": "https://github.com/snowmantw/react-bandjs-renderer/demo/mbros-theme"
   },
   "keywords": [
     "React"
