@@ -4,7 +4,7 @@
 
 #### Setup
 
-    ```npm install react-bandjs-renderer```
+    npm install react-bandjs-renderer
 
 #### Usage
 
@@ -35,7 +35,7 @@
     , (conductor, player) => player.play());
     ```
 
-3. Done! A completed demo from [Band.js](https://github.com/meenie/band.js/) is in the `demo/mbros-theme/`.
+3. Done! A completed demo from [Band.js](https://github.com/meenie/band.js/) is in the [demo/mbros-theme](https://github.com/snowmantw/react-bandjs-renderer/tree/master/demo/mbros-theme).
 
 #### Components
 
