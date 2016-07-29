@@ -1,7 +1,7 @@
 # How to run the demo
 
     npm install
-    npm run demo
+    npm run start
     
 
 And then, open your browser to URL:

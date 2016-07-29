@@ -4,7 +4,7 @@
   "description": "A demo to show how the renderer works",
   "main": "''",
   "scripts": {
-    "demo": "webpack-dev-server --progress --profile --colors --hot"
+    "start": "webpack-dev-server --progress --profile --colors --hot"
   },
   "repository": {
     "type": "git",
