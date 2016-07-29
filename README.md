@@ -37,6 +37,8 @@
 
 3. Done! A completed demo from [Band.js](https://github.com/meenie/band.js/) is in the [demo/mbros-theme](https://github.com/snowmantw/react-bandjs-renderer/tree/master/demo/mbros-theme).
 
+Or, you can also check my [online demo on Heroku](https://react-bandjs-renderer-mbros.herokuapp.com/).
+
 #### Components
 
 Internal components in this renderes are:
